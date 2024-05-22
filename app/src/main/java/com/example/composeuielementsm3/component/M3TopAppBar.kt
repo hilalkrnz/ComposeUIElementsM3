@@ -33,7 +33,7 @@ fun Toolbar() {
             LargeTopAppBar(
                 title = { Text(text = "My stars") },
                 navigationIcon = {
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = {}) {
                         Icon(
                             imageVector = Icons.Default.Menu,
                             contentDescription = "Open menu"
@@ -41,14 +41,14 @@ fun Toolbar() {
                     }
                 },
                 actions = {
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = {}) {
                         Icon(
                             imageVector = Icons.Default.FavoriteBorder,
                             contentDescription = "Mark as favorite"
                         )
                     }
 
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = {}) {
                         Icon(
                             imageVector = Icons.Default.Edit,
                             contentDescription = "Edit stars"
